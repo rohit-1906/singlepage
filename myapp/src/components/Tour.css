@@ -1,0 +1,90 @@
+.navbar{
+    background-color: rgba(124, 117, 117, 0);
+       height: 3em;
+       position:relative;
+       
+}
+  
+.navbar p{
+          font-size: 30px;
+          font-family: fantasy;
+          padding-right:5em;
+          padding-inline-end: 10%;
+          padding-top: 0%;
+          padding-bottom: 0%;
+          
+}
+.Home img{
+       display: inline;
+       height: 100px;
+       padding-top: 0%;
+       transition:2s;
+       cursor:pointer;
+}
+
+
+.containers{
+    list-style:none;
+    color:rgb(238, 232, 220);
+    
+
+    
+}
+.containers li {
+    display: inline-block;
+    padding:1em;
+    text-align: center;
+    padding-top:0%;
+    margin-top: 0%;
+    cursor: pointer;
+}
+.containers li a{
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+}
+.containers li:hover{
+    background-color: darkgrey;
+    padding-top: 0%;
+    border-radius: 3em;
+    padding-bottom: 0%;
+}
+.containers li:visited{
+    background-color: rgb(249, 200, 7);
+    padding-top: 0%;
+    border-radius: 3em;
+    padding-bottom: 0%;
+}
+h1{
+    font-family: cursive;
+    font-size:90px;
+    color:#a19435;
+    font-weight:bolder ;
+}
+input{
+    margin: 5%;
+    width: 25%;
+    height: 50px    ;
+    Border-radius:3em;
+    background-color: white;
+    cursor:auto;    
+}
+.fm{
+    border:5px solid rgb(234, 229, 229);
+    height:300px;
+    width: 500px;
+}
+
+.fm input[type=text], input[type=password] {
+  width: 50%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+.fm button{
+    background-color: #a19435;
+    align-tracks:inherit;
+}
+
+
+
